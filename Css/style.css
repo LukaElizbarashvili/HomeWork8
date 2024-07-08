@@ -1,0 +1,45 @@
+/* FIrst Task: Button */
+.ButtonContainer{
+    background-color: darkmagenta;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+button{
+    background-color: darkmagenta;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-size: 28px;
+    line-height: 51px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 5px 0px white inset, 3px 3px 5px 0px black;
+}
+/* Second Task:Card */
+button:active{
+    box-shadow: 3px 3px 5px 0px black inset, 3px 3px 5px 0px white ;
+    text-shadow: 1px 1px 1px black;
+}
+.DogArticle{
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.PuppyText{
+    color: green;
+    font-size: 25px;
+}
+/* .DogArticle:hover{
+    padding: 10px;
+    box-shadow: 0 0 15px greenyellow, 0 0 20px greenyellow, 0 0 60px greenyellow, 0 0 150px greenyellow;
+} */
